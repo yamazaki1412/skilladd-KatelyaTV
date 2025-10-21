@@ -34,7 +34,7 @@ function VersionDisplay() {
     <button
       onClick={() =>
         window.open(
-          process.env.NEXT_PUBLIC_REPO_URL || 'https://github.com/katelya77/KatelyaTV',
+          process.env.NEXT_PUBLIC_REPO_URL || 'https://kid-kytv.kaitokid.xx.kg/',
           '_blank'
         )
       }
