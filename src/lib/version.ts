@@ -17,9 +17,9 @@ const ENV_BACKUP = process.env.NEXT_PUBLIC_VERSION_URL_BACKUP;
 const VERSION_CHECK_URLS = [
   ENV_PRIMARY,
   ENV_BACKUP,
-  'https://ghfast.top/raw.githubusercontent.com/katelya77/KatelyaTV/main/VERSION.txt',
-  'https://raw.githubusercontent.com/katelya77/KatelyaTV/main/VERSION.txt',
-].filter(Boolean) as string[];
+  'https://ghfast.top/https://raw.githubusercontent.com/yamazaki1412/skilladd-KatelyaTV/main/VERSION.txt',
+  'https://raw.githubusercontent.com/yamazaki1412/skilladd-KatelyaTV/main/VERSION.txt',
+]。filter(Boolean) as string[];
 
 /**
  * 检查是否有新版本可用
